@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:entities="clr-namespace:PAT.Models.Entities"
              x:Class="PAT.MainPage">
 
-    <ListView x:Name="Messages">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Content}" Detail="{Binding SenderId}" />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-        
-    </ListView>
+    
+    
+    <!-- <ListView x:Name="Messages"> -->
+    <!--     <ListView.ItemTemplate> -->
+    <!--         <DataTemplate> -->
+    <!--             <ViewCell> -->
+    <!--                 <StackLayout Orientation="Horizontal"> -->
+    <!--                     <TextCell Text="{Binding Id}" x:DataType="entities:Message" /> -->
+    <!--                     <TextCell Text="{Binding Content}" x:DataType="entities:Message" /> -->
+    <!--                     <TextCell Text="{Binding ReceiverId}" x:DataType="entities:Message" /> -->
+    <!--                     <TextCell Text="{Binding SenderId}" x:DataType="entities:Message" /> -->
+    <!--                 </StackLayout> -->
+    <!--             </ViewCell> -->
+    <!--         </DataTemplate> -->
+    <!--     </ListView.ItemTemplate> -->
+    <!-- </ListView> -->
+
 
 </ContentPage>

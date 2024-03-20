@@ -6,18 +6,7 @@ namespace PAT.Models.Repositories;
 /// <summary>
 /// Provides data-access to Students.
 /// </summary>
-class StudentRepository : Repository<Student>, IStudentRepository
+public class StudentRepository(PatDbContext context) : Repository<Student>(context), IStudentRepository
 {
-
-    private readonly PatDbContext dataContext;
-    private readonly IDateTimeProvider dateTimeProvider;
-
-    public StudentRepository(
-        PatDbContext context, 
-        IDateTimeProvider dateTimeProvider) 
-        : base(context)
-    {
-        this.dataContext = context;
-        this.dateTimeProvider = dateTimeProvider;
-    }
+    private readonly PatDbContext _dataContext = context;
 }

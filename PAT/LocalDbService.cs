@@ -19,6 +19,7 @@ public class LocalDbService
         {
             pathDb = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             pathDb = Path.Combine(pathDb, nameDb);
+            Console.WriteLine("PathDb = " + pathDb);
         }
         return pathDb;
     }

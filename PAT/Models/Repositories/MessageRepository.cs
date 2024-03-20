@@ -6,18 +6,19 @@ namespace PAT.Models.Repositories;
 /// <summary>
 /// Provides data-access to Messages.
 /// </summary>
-class MessageRepository : Repository<Message>, IMessageRepository
+public class MessageRepository : Repository<Message>, IMessageRepository
 {
 
-    private readonly PatDbContext dataContext;
-    private readonly IDateTimeProvider dateTimeProvider;
+    private readonly PatDbContext _dataContext;
 
+    /// <summary>
+    /// The constructor for the repository.
+    /// </summary>
+    /// <param name="context">The data-context to use.</param>
     public MessageRepository(
-        PatDbContext context, 
-        IDateTimeProvider dateTimeProvider) 
+        PatDbContext context) 
         : base(context)
     {
-        this.dataContext = context;
-        this.dateTimeProvider = dateTimeProvider;
+        this._dataContext = context;
     }
 }
