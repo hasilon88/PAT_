@@ -4,11 +4,12 @@ using PAT.Models.Repositories;
 
 namespace PAT;
 
-public partial class MainPage : ContentPage
+public partial class MainPage
 {
     private readonly IMessageRepository _messageRepository;
-
-    public MainPage(IMessageRepository messageRepository)
+    private readonly IStudentRepository _studentRepository;
+    
+    public MainPage(IMessageRepository messageRepository, IStudentRepository studentRepository)
     {
         _messageRepository = messageRepository;
         InitializeComponent();
@@ -27,9 +28,16 @@ public partial class MainPage : ContentPage
         try
         {
             await _messageRepository.CreateAsync(new Message() { Content = "Hello", SenderId = 1, ReceiverId = 2 });
-
+            await _messageRepository.CreateAsync(new Message() { Content = "Yes", SenderId = 2, ReceiverId = 1 });
+            await _messageRepository.CreateAsync(new Message() { Content = "How Are You?", SenderId = 1, ReceiverId = 2 });
+            await _messageRepository.CreateAsync(new Message() { Content = "Good and you?", SenderId = 2, ReceiverId = 1 });
+            await _messageRepository.CreateAsync(new Message() { Content = "yuuup", SenderId = 1, ReceiverId = 2 });
+            
+            
+            
             var messages = await _messageRepository.GetAllAsync();
-            Messages.ItemsSource = messages;
+
+            var list = messages.Where(m => m.ReceiverId == 1).ToList();
         }
         catch (Exception ex)
         {

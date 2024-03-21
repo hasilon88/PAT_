@@ -14,7 +14,7 @@ public interface IRepository<T>
     Task<IEnumerable<T>> GetAllAsync();
 
     /// <summary>
-    /// Gets entitties as an IQueryable to allow furter filtering/sorting, etc.
+    /// Gets entities as an IQueryable to allow further filtering/sorting, etc.
     /// </summary>
     /// <returns>An IQueryable of the items.</returns>
     IQueryable<T> Get();

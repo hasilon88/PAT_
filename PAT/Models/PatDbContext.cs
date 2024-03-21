@@ -19,8 +19,9 @@ namespace PAT.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionDb = $"Filename={LocalDbService.GetPath("appData.db")}";
-            optionsBuilder.UseSqlite(connectionDb);
+            // string connectionDb = $"Filename={LocalDbService.GetPath("appData.db")}";
+            System.IO.Directory.CreateDirectory("C:/PAT_DB");
+            optionsBuilder.UseSqlite("Data Source=C:/PAT_DB/appData.db");
         }
     }
 }

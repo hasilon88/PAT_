@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using Microsoft.Extensions.Logging;
 using PAT.Models;
 using PAT.Models.Repositories;
 
@@ -17,9 +18,11 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
 
-
+        SQLitePCL.Batteries.Init();
         builder.Services.AddDbContext<PatDbContext>();
+        
         builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+        builder.Services.AddScoped<IStudentRepository, StudentRepository>();
         builder.Services.AddTransient<MainPage>();
 
         
