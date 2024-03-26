@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using PAT.Models;
 using PAT.Models.Repositories;
 
@@ -21,11 +20,9 @@ public static class MauiProgram
         SQLitePCL.Batteries.Init();
         builder.Services.AddDbContext<PatDbContext>();
         
-        builder.Services.AddScoped<IMessageRepository, MessageRepository>();
-        builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddTransient<MainPage>();
 
-        
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

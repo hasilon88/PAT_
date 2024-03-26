@@ -1,12 +1,11 @@
 ﻿using PAT.Models.Entities;
-using PAT.Providers;
 
 namespace PAT.Models.Repositories;
 
 /// <summary>
-/// Provides data-access to Messages.
+/// Provides data-access to Users.
 /// </summary>
-public class MessageRepository : Repository<Message>, IMessageRepository
+public class UserRepository : Repository<User>, IUserRepository
 {
 
     private readonly PatDbContext _dataContext;
@@ -15,7 +14,7 @@ public class MessageRepository : Repository<Message>, IMessageRepository
     /// The constructor for the repository.
     /// </summary>
     /// <param name="context">The data-context to use.</param>
-    public MessageRepository(
+    public UserRepository(
         PatDbContext context) 
         : base(context)
     {

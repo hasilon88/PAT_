@@ -35,11 +35,5 @@ namespace PAT.Models.Entities
         /// Gets or sets whether the account is deleted.
         /// </summary>
         public bool IsDeleted { get; set; }
-
-        /// <summary>
-        /// Gets or sets the user's messages.
-        /// </summary>
-        [Required]
-        public virtual ICollection<Message> Messages { get; set;} = new List<Message>();
     }
 }

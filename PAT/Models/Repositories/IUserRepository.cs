@@ -3,8 +3,8 @@
 namespace PAT.Models.Repositories;
 
 /// <summary>
-/// Provides data-access to Messages.
+/// Provides data-access to Users.
 /// </summary>
-public interface IMessageRepository : IRepository<Message>
+public interface IUserRepository : IRepository<User>
 {
 }

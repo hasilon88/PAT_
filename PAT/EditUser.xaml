@@ -1,0 +1,15 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAT.EditUser">
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Entry x:Name="FirstNameEntry" Text="{Binding FirstName}" Placeholder="First Name"/>
+            <Entry x:Name="LastNameEntry" Text="{Binding LastName}" Placeholder="Last Name"/>
+            <Entry x:Name="EmailEntry" Text="{Binding Email}" Placeholder="Email"/>
+            <Entry x:Name="NumberEntry" Text="{Binding Phone}" Placeholder="Phone Number"/>
+            
+            <Button Text="Save Changes" Clicked="OnEditUserClicked"/>
+            <Button Text="Cancel" Clicked="Cancel"/>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
