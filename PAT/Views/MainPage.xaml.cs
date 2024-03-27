@@ -64,6 +64,6 @@ public partial class MainPage
             await Navigation.PushModalAsync(new EditUser(_userRepository, user));    
         }
         
-        OnAppearing();
+        await LoadData();
     }
 }

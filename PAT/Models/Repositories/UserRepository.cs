@@ -7,7 +7,6 @@ namespace PAT.Models.Repositories;
 /// </summary>
 public class UserRepository : Repository<User>, IUserRepository
 {
-
     private readonly PatDbContext _dataContext;
 
     /// <summary>

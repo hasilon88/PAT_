@@ -36,13 +36,17 @@ public partial class EditUser : ContentPage
             await DisplayAlert("Validation Failed", "Please enter all fields.", "OK");
             return;
         }
+        
+        User user = new User
+        {
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            Phone = number
+        };
 
-        _user.FirstName = firstName;
-        _user.LastName = lastName;
-        _user.Email = email;
-        _user.Phone = number;
-
-        await _userRepository.UpdateAsync(_user);
+        await _userRepository.DeleteAsync((int) _user.Id);
+        await _userRepository.CreateAsync(user);
         
         await DisplayAlert("Success", "User updated successfully", "OK");
         

@@ -10,7 +10,6 @@ namespace PAT.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
             string dataBasePath = "C:/PAT_DB/appData.db";
             Directory.CreateDirectory("C:/PAT_DB");
             optionsBuilder.UseSqlite("Data Source=" + dataBasePath);
