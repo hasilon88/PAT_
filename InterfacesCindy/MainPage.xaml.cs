@@ -15,6 +15,6 @@ public partial class MainPage : ContentPage
     
     private async void OnDemandeTutoratClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new DemandeTutoratPage());
+        await Navigation.PushAsync(new TutoratDisopPage());
     }
 }

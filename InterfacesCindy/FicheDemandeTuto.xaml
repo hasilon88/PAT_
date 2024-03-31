@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfacesCindy.FicheDemandeTuto">
+    
+    <VerticalStackLayout Spacing="25" Padding="30">
+        
+        <Label Text="Inscription au tutorat"
+               FontSize="30" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        
+        <Label Text="Pourquoi avez-vous besoin de tutorat, user.getFirstName?"
+               HorizontalOptions="Start"
+               VerticalOptions="CenterAndExpand" />
+        
+        <!-- Champ de texte pour les commentaires -->
+        <Editor x:Name="editorCommentaires" 
+                Placeholder="Résumez votre situation, user.getFirstName" 
+                HeightRequest="100" />
+        
+        <!-- Grille ajustée pour DatePicker et TimePicker -->
+        <Grid ColumnDefinitions="200,200" RowDefinitions="Auto" HorizontalOptions="Center">
+            <!-- Calendrier pour choisir une date -->
+            <DatePicker x:Name="datePicker"
+                        Format="D"
+                        Grid.Column="0"/>
+                
+            <!-- Picker pour choisir une heure -->
+            <TimePicker x:Name="timePicker"
+                        Format="HH:mm"
+                        Grid.Column="1" />
+        </Grid>
+        
+        <Button x:Name="btnEnvoyer" 
+                Text="Envoyer la demande" 
+                Margin="0,10,0,10"
+                WidthRequest="180" 
+                HorizontalOptions="Center" 
+                BackgroundColor="Teal"
+                Clicked="OnEnvoyerClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

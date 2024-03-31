@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InterfacesCindy.TutoratDisopPage">
+    
+    <ScrollView>
+           
+           <VerticalStackLayout Spacing="20" Padding="20">
+               <Label Text="Voici les opportunités de tutorat dans votre dossier, user.getFirstName"
+                      FontSize="Medium" 
+                      HorizontalTextAlignment="Center"
+                      TextColor="BlueViolet"
+                      FontAttributes="Bold"/>
+               
+               <Label Text="Instructions" 
+                      FontSize="Medium" 
+                      FontAttributes="Bold"/>
+
+            <Label Text="Si le tutorat n'est pas offert sur cette plateforme, consultez votre département pour de l'aide à la réussite" 
+                   FontSize="Small"/>
+
+            <Label Text="Cours à la session Hiver 2024" 
+                   Margin="0,20,0,10" 
+                   FontSize="Medium" 
+                   FontAttributes="Bold"/>
+
+            <Label Text="Introduction aux plateformes IdO" 
+                   FontAttributes="Bold"/>
+            <Label Text="420-410-MV"/>
+            <Label Text="Le tutorat n'est pas offert pour ce cours" 
+                   FontSize="Small" 
+                   TextColor="DarkBlue"/>
+               <!-- Si le tutorat n'est pas dispo, bouton gris et unclickable -->
+               <Button Text="Inscription impossible" 
+                       HorizontalOptions="Start"
+                       BackgroundColor="DimGrey"
+                       TextColor="White"
+                       Margin="0,0,0,10"/>
+
+            <Label Text="Interfaces humain-machine" 
+                   FontAttributes="Bold"/>
+            <Label Text="420-411-MV"/>
+            <Label Text="Tutorat offert pour ce cours" 
+                   FontSize="Small" 
+                   TextColor="DarkBlue"/>
+               <!-- Si le tutorat est dispo, bouton turquoise et clickable qui navigate vers remplir la fiche -->
+               <Button Text="Vous inscrire" 
+                       HorizontalOptions="Start"
+                       BackgroundColor="Teal"
+                       TextColor="White"
+                       Margin="0,0,0,10"
+                       Clicked="OnFicheDemandeTutorat"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

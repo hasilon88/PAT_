@@ -23,9 +23,15 @@
             <ShellContent ContentTemplate="{DataTemplate pages:AgendaPage}" />
         </Tab>
         
-        <Tab Title="Demande de Tutorat" Icon="tuto.png">
-            <ShellContent ContentTemplate="{DataTemplate pages:DemandeTutoratPage}" />
+        <Tab Title="Tutorat Disponible" Icon="tuto.png">
+            <ShellContent ContentTemplate="{DataTemplate pages:TutoratDisopPage}" />
         </Tab>
+        
+        <Tab Title="Fiche d'inscription" Icon="tuto.png">
+            <ShellContent ContentTemplate="{DataTemplate pages:FicheDemandeTuto}" />
+        </Tab>
+        
+        
         
     </TabBar>
 

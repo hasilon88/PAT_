@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfacesCindy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4f76591c32386089133560324334846b2081ef95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ee93e858a7d630428e2db62fc6c7592dede830f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfacesCindy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfacesCindy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
