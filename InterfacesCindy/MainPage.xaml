@@ -1,71 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="InterfacesCindy.MainPage">
-<ContentPage.Content>
-    
-    <Grid Margin="20">
-    <Grid.RowDefinitions>
-        <RowDefinition Height="*" />
-        <RowDefinition Height="Auto" />
-    </Grid.RowDefinitions>
+    <ContentPage.Content>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-    <ScrollView Grid.Row="0">
-        <Frame
-            BorderColor="Gray" 
-            CornerRadius="10"
-            Padding="0"
-            HorizontalOptions="FillAndExpand"
-            VerticalOptions="FillAndExpand">
+            <Image Source="tutoratbg.jpg"
+                   Aspect="AspectFill"
+                   Grid.Row="0"
+                   Grid.RowSpan="2" />
 
-            <VerticalStackLayout
-                Spacing="25"
-                Padding="30"
-                VerticalOptions="Start">
-
+            <ScrollView Grid.Row="0" BackgroundColor="Transparent">
                 <Frame
-                    BackgroundColor="#72199e" 
-                    Padding="10"
-                    CornerRadius="5"
+                    CornerRadius="10"
+                    Padding="0"
                     HorizontalOptions="FillAndExpand"
-                    VerticalOptions="Start">
-                    <Label
-                        Text="Mes Infos"
-                        FontSize="24"
-                        HorizontalOptions="Center"
-                        TextColor="White" />
+                    VerticalOptions="FillAndExpand"
+                    BackgroundColor="Transparent"
+                    BorderColor="Transparent"
+                    HasShadow="False">   
+
+                    <VerticalStackLayout
+                        Spacing="25"
+                        Padding="30"
+                        VerticalOptions="Start">
+
+                        <Frame
+                            BackgroundColor="Transparent"  
+                            Padding="10"
+                            CornerRadius="5"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Start"
+                            BorderColor="Black">
+                              
+                            <Label
+                                Text="Mes Infos"
+                                FontSize="30"
+                                HorizontalOptions="Center"
+                                TextColor="Black" />
+                        </Frame>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Prénom : " FontSize="25" />
+                            <Label Text=" user.getFirstName" FontSize="25" Margin="0,0,20,0" />
+                            <Label Text="Nom : " FontSize="25" />
+                            <Label Text=" user.getLastName" FontSize="25" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Matricule : " FontSize="25" />
+                            <Label Text=" user.getMatricule" FontSize="25" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Programme: " FontSize="25" />
+                            <Label Text="user.getFieldOfStudy" FontSize="25" />
+                        </HorizontalStackLayout>
+                            
+
+                    </VerticalStackLayout>
                 </Frame>
+            </ScrollView>
 
-                <HorizontalStackLayout>
-                    <Label Text="Prénom : " FontSize="18" />
-                    <Label Text=" user.getFirstName" FontSize="18" Margin="0,0,20,0" />
-                    <Label Text="Nom : " FontSize="18" />
-                    <Label Text=" user.getLastName" FontSize="18" />
-                </HorizontalStackLayout>
-
-                <HorizontalStackLayout>
-                    <Label Text="Matricule : " FontSize="18" />
-                    <Label Text=" user.getMatricule" FontSize="18" />
-                </HorizontalStackLayout>
-
-                <HorizontalStackLayout>
-                    <Label Text="Programme: " FontSize="18" />
-                    <Label Text="user.getFieldOfStudy" FontSize="18" />
-                </HorizontalStackLayout>
-
-            </VerticalStackLayout>
-        </Frame>
-    </ScrollView>
-
-    <Button Grid.Row="1"
-            Text="Faire une demande de tutorat"
-            HorizontalOptions="End"
-            VerticalOptions="End"
-            Margin="0,10,10,10"
-            Clicked="OnDemandeTutoratClicked"/>
-</Grid>
-
-        
+            <Button Grid.Row="1"
+                    Text="Faire une demande de tutorat"
+                    TextColor="Black"
+                    FontSize="18"  
+                    HeightRequest="60"  
+                    WidthRequest="300" 
+                    BorderColor="Black"  
+                    BorderWidth="2"  
+                    BackgroundColor="#EBE7D8"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    Margin="0,30,30,30"
+                    Clicked="OnDemandeTutoratClicked"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

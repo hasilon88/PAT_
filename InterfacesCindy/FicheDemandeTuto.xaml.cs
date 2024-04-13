@@ -1,21 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
 
-namespace InterfacesCindy;
-
-public partial class FicheDemandeTuto : ContentPage
+namespace InterfacesCindy
 {
-    public FicheDemandeTuto()
+    public partial class FicheDemandeTuto : ContentPage
     {
-        InitializeComponent();
-    }
-    private async void OnEnvoyerClicked(object sender, EventArgs e)
-    {
-        // Ici, ajoutez votre logique pour traiter la demande de rendez-vous
-        // Par exemple, afficher un message de confirmation
-        await DisplayAlert("Demande envoyée", $"Votre demande pour le {datePicker.Date.ToString("D")} a été envoyée.\nCommentaires: {editorCommentaires.Text}", "OK");
+        public FicheDemandeTuto()
+        {
+            InitializeComponent();
+        }
+
+        private void OnEnvoyerClicked(object sender, EventArgs e)
+        {
+            // Retrieving the comment
+            string comment = editorCommentaires.Text;
+
+            // Retrieving the start date and time
+            DateTime startDate = dispoStartDate.Date;
+            TimeSpan startTime = dispoStartTime.Time;
+            DateTime fullStartDateTime = startDate.Add(startTime);
+
+            // Retrieving the end date and time
+            DateTime endDate = dispoEndDate.Date;
+            TimeSpan endTime = dispoEndTime.Time;
+            DateTime fullEndDateTime = endDate.Add(endTime);
+
+            // Now you can use these variables as needed. This example just displays them.
+            DisplayAlert("Input Summary", 
+                $"Comment: {comment}\n" +
+                $"Start: {fullStartDateTime}\n" +
+                $"End: {fullEndDateTime}", 
+                "OK");
+        }
     }
 }

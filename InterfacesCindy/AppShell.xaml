@@ -6,33 +6,29 @@
     xmlns:local="clr-namespace:InterfacesCindy"
     Shell.FlyoutBehavior="Disabled"
     xmlns:pages="clr-namespace:InterfacesCindy"
-    Title="Fuck You Ceci est l'affichage de la page AppShell.xaml">
+    Title="Ceci est l'affichage de la page AppShell.xaml">
     
     
     <TabBar>
-        
-        <Tab Title="Mon Compte" Icon="account.png">
+        <Tab Title="Mon Compte">
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}" />
         </Tab>
         
-        <Tab Title="Mes Tutorats" Icon="tuto.png">
+        <Tab Title="Mes Tutorats" >
             <ShellContent ContentTemplate="{DataTemplate pages:MesServicesTutoratPage}" />
         </Tab>
 
-        <Tab Title="Agenda" Icon="agenda.png">
+        <Tab Title="Agenda" >
             <ShellContent ContentTemplate="{DataTemplate pages:AgendaPage}" />
         </Tab>
         
-        <Tab Title="Tutorat Disponible" Icon="tuto.png">
+        <Tab Title="Tutorat Disponible" >
             <ShellContent ContentTemplate="{DataTemplate pages:TutoratDisopPage}" />
         </Tab>
         
-        <Tab Title="Fiche d'inscription" Icon="tuto.png">
+        <Tab Title="Fiche d'inscription">
             <ShellContent ContentTemplate="{DataTemplate pages:FicheDemandeTuto}" />
         </Tab>
-        
-        
-        
     </TabBar>
 
 </Shell>

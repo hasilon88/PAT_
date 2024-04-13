@@ -19,15 +19,35 @@
                 Placeholder="Résumez votre situation, user.getFirstName" 
                 HeightRequest="100" />
         
+        <Label Text="Start"
+               FontSize="15" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        
         <!-- Grille ajustée pour DatePicker et TimePicker -->
         <Grid ColumnDefinitions="200,200" RowDefinitions="Auto" HorizontalOptions="Center">
             <!-- Calendrier pour choisir une date -->
-            <DatePicker x:Name="datePicker"
+            <DatePicker x:Name="dispoStartDate"
                         Format="D"
                         Grid.Column="0"/>
                 
             <!-- Picker pour choisir une heure -->
-            <TimePicker x:Name="timePicker"
+            <TimePicker x:Name="dispoStartTime"
+                        Format="HH:mm"
+                        Grid.Column="1" />
+        </Grid>
+        <Label Text="End"
+               FontSize="15" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Grid ColumnDefinitions="200,200" RowDefinitions="Auto" HorizontalOptions="Center">
+            <!-- Calendrier pour choisir une date -->
+            <DatePicker x:Name="dispoEndDate"
+                        Format="D"
+                        Grid.Column="0"/>
+                
+            <!-- Picker pour choisir une heure -->
+            <TimePicker x:Name="dispoEndTime"
                         Format="HH:mm"
                         Grid.Column="1" />
         </Grid>

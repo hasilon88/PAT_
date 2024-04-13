@@ -29,277 +29,281 @@
     <AppXManifest Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-31T13:25:33.864</Modified>
+      <Modified>2024-04-13T20:26:36.869</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-31T13:02:04.764</Modified>
+      <Modified>2024-04-13T20:26:36.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfacesCindy.runtimeconfig.json">
       <PackagePath>InterfacesCindy.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-31T11:42:06.543</Modified>
+      <Modified>2024-04-13T20:02:42.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfacesCindy.dll">
       <PackagePath>InterfacesCindy.dll</PackagePath>
-      <Modified>2024-03-31T13:25:32.953</Modified>
+      <Modified>2024-04-13T20:26:36.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>InterfacesCindy.exe</PackagePath>
-      <Modified>2024-03-31T13:25:32.991</Modified>
+      <Modified>2024-04-13T20:26:36.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-03-30T20:31:40.229</Modified>
+      <Modified>2024-04-13T19:54:56.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:03.821</Modified>
+      <Modified>2024-04-13T19:59:53.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:03.841</Modified>
+      <Modified>2024-04-13T19:59:53.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:03.870</Modified>
+      <Modified>2024-04-13T19:59:53.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:03.920</Modified>
+      <Modified>2024-04-13T19:59:53.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.085</Modified>
+      <Modified>2024-04-13T19:59:53.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-03-30T20:31:39.858</Modified>
+      <Modified>2024-04-13T19:54:56.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-03-30T20:31:39.859</Modified>
+      <Modified>2024-04-13T19:54:56.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
       <PackagePath>account.scale-100.png</PackagePath>
-      <Modified>2024-03-30T23:31:28.388</Modified>
+      <Modified>2024-04-13T19:54:56.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\agenda.scale-100.png">
       <PackagePath>agenda.scale-100.png</PackagePath>
-      <Modified>2024-03-30T23:48:27.852</Modified>
+      <Modified>2024-04-13T19:54:56.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-03-31T11:42:04.138</Modified>
+      <Modified>2024-04-13T20:02:39.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.698</Modified>
+      <Modified>2024-04-13T20:02:40.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.726</Modified>
+      <Modified>2024-04-13T20:02:40.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.749</Modified>
+      <Modified>2024-04-13T20:02:40.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.787</Modified>
+      <Modified>2024-04-13T20:02:40.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.977</Modified>
+      <Modified>2024-04-13T20:02:40.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.293</Modified>
+      <Modified>2024-04-13T20:02:39.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.299</Modified>
+      <Modified>2024-04-13T20:02:39.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.334</Modified>
+      <Modified>2024-04-13T20:02:39.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.307</Modified>
+      <Modified>2024-04-13T20:02:39.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.316</Modified>
+      <Modified>2024-04-13T20:02:39.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.256</Modified>
+      <Modified>2024-04-13T20:02:39.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.262</Modified>
+      <Modified>2024-04-13T20:02:39.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.286</Modified>
+      <Modified>2024-04-13T20:02:39.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.267</Modified>
+      <Modified>2024-04-13T20:02:39.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.273</Modified>
+      <Modified>2024-04-13T20:02:39.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.164</Modified>
+      <Modified>2024-04-13T20:02:39.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.176</Modified>
+      <Modified>2024-04-13T20:02:39.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.183</Modified>
+      <Modified>2024-04-13T20:02:39.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.191</Modified>
+      <Modified>2024-04-13T20:02:39.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.203</Modified>
+      <Modified>2024-04-13T20:02:39.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.209</Modified>
+      <Modified>2024-04-13T20:02:39.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.218</Modified>
+      <Modified>2024-04-13T20:02:39.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.251</Modified>
+      <Modified>2024-04-13T20:02:39.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.226</Modified>
+      <Modified>2024-04-13T20:02:39.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.234</Modified>
+      <Modified>2024-04-13T20:02:39.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.443</Modified>
+      <Modified>2024-04-13T20:02:39.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.454</Modified>
+      <Modified>2024-04-13T20:02:39.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.470</Modified>
+      <Modified>2024-04-13T20:02:40.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.492</Modified>
+      <Modified>2024-04-13T20:02:40.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.528</Modified>
+      <Modified>2024-04-13T20:02:40.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.388</Modified>
+      <Modified>2024-04-13T20:02:39.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.398</Modified>
+      <Modified>2024-04-13T20:02:39.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.405</Modified>
+      <Modified>2024-04-13T20:02:39.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.414</Modified>
+      <Modified>2024-04-13T20:02:39.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.428</Modified>
+      <Modified>2024-04-13T20:02:39.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.342</Modified>
+      <Modified>2024-04-13T20:02:39.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.350</Modified>
+      <Modified>2024-04-13T20:02:39.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.357</Modified>
+      <Modified>2024-04-13T20:02:39.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.367</Modified>
+      <Modified>2024-04-13T20:02:39.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.381</Modified>
+      <Modified>2024-04-13T20:02:39.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.544</Modified>
+      <Modified>2024-04-13T20:02:40.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.563</Modified>
+      <Modified>2024-04-13T20:02:40.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.582</Modified>
+      <Modified>2024-04-13T20:02:40.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.612</Modified>
+      <Modified>2024-04-13T20:02:40.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.677</Modified>
+      <Modified>2024-04-13T20:02:40.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.136</Modified>
+      <Modified>2024-04-13T20:02:39.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.150</Modified>
+      <Modified>2024-04-13T20:02:39.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.171</Modified>
+      <Modified>2024-04-13T20:02:39.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.201</Modified>
+      <Modified>2024-04-13T20:02:39.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-03-31T11:42:04.300</Modified>
+      <Modified>2024-04-13T20:02:39.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tuto.scale-100.png">
       <PackagePath>tuto.scale-100.png</PackagePath>
-      <Modified>2024-03-30T23:31:28.398</Modified>
+      <Modified>2024-04-13T19:54:56.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tutoratbg.scale-100.jpg">
+      <PackagePath>tutoratbg.scale-100.jpg</PackagePath>
+      <Modified>2024-04-13T19:56:43.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\InterfacesCindy.deps.json">
       <PackagePath>InterfacesCindy.deps.json</PackagePath>
-      <Modified>2024-03-31T11:42:06.515</Modified>
+      <Modified>2024-04-13T20:02:42.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
