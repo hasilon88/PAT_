@@ -30,7 +30,7 @@
                         VerticalOptions="Start">
 
                         <Frame
-                            BackgroundColor="Transparent"  
+                            BackgroundColor="#EBE7D8"  
                             Padding="10"
                             CornerRadius="5"
                             HorizontalOptions="FillAndExpand"
