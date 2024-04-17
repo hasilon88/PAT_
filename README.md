@@ -10,10 +10,10 @@
 **Cégep Marie-Victorin, 4ème session**
 
 ## Développeurs : 
-- Raphael Paquin
-- Harjot Singh Dhillon
-- Jenna-Lee Lecavalier
-- Cindy Bragdon
+💾 Raphael Paquin
+💾 Harjot Singh Dhillon
+💾 Jenna-Lee Lecavalier
+💾 Cindy Bragdon
 ---
 
 ## C'est quoi P.A.T. *Plateforme Académique pour le Tutorat*
