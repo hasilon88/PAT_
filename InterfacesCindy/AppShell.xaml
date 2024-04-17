@@ -14,14 +14,6 @@
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}" />
         </Tab>
         
-        <Tab Title="Mes Tutorats" >
-            <ShellContent ContentTemplate="{DataTemplate pages:MesServicesTutoratPage}" />
-        </Tab>
-
-        <Tab Title="Agenda" >
-            <ShellContent ContentTemplate="{DataTemplate pages:AgendaPage}" />
-        </Tab>
-        
         <Tab Title="Tutorat Disponible" >
             <ShellContent ContentTemplate="{DataTemplate pages:TutoratDisopPage}" />
         </Tab>
@@ -29,6 +21,7 @@
         <Tab Title="Fiche d'inscription">
             <ShellContent ContentTemplate="{DataTemplate pages:FicheDemandeTuto}" />
         </Tab>
+
     </TabBar>
 
 </Shell>

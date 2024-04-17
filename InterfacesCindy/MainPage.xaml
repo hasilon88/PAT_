@@ -2,6 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="InterfacesCindy.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="WidthRequest" Value="200"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BackgroundColor" Value="#EBE7D8"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <Grid Margin="20">
             <Grid.RowDefinitions>
@@ -15,70 +30,61 @@
                    Grid.RowSpan="2" />
 
             <ScrollView Grid.Row="0" BackgroundColor="Transparent">
-                <Frame
-                    CornerRadius="10"
-                    Padding="0"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="FillAndExpand"
-                    BackgroundColor="Transparent"
-                    BorderColor="Transparent"
-                    HasShadow="False">   
-
-                    <VerticalStackLayout
-                        Spacing="25"
-                        Padding="30"
-                        VerticalOptions="Start">
-
-                        <Frame
-                            BackgroundColor="#EBE7D8"  
-                            Padding="10"
-                            CornerRadius="5"
-                            HorizontalOptions="FillAndExpand"
-                            VerticalOptions="Start"
-                            BorderColor="Black">
-                              
-                            <Label
-                                Text="Mes Infos"
-                                FontSize="30"
-                                HorizontalOptions="Center"
-                                TextColor="Black" />
-                        </Frame>
-
-                        <HorizontalStackLayout>
-                            <Label Text="Prénom : " FontSize="25" />
-                            <Label Text=" user.getFirstName" FontSize="25" Margin="0,0,20,0" />
-                            <Label Text="Nom : " FontSize="25" />
-                            <Label Text=" user.getLastName" FontSize="25" />
-                        </HorizontalStackLayout>
-
-                        <HorizontalStackLayout>
-                            <Label Text="Matricule : " FontSize="25" />
-                            <Label Text=" user.getMatricule" FontSize="25" />
-                        </HorizontalStackLayout>
-
-                        <HorizontalStackLayout>
-                            <Label Text="Programme: " FontSize="25" />
-                            <Label Text="user.getFieldOfStudy" FontSize="25" />
-                        </HorizontalStackLayout>
-                            
-
-                    </VerticalStackLayout>
-                </Frame>
+                <Frame CornerRadius="10"
+                       Padding="0"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       BackgroundColor="Transparent"
+                       BorderColor="Transparent"
+                       HasShadow="False"/>
             </ScrollView>
+            
+            <VerticalStackLayout
+                Spacing="25"
+                Padding="30"
+                VerticalOptions="Start">
+                <Frame BackgroundColor="#EBE7D8"  
+                       Padding="10"
+                       CornerRadius="5"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Start">
+                    <Label Text="Bienvenue sur votre tableau de bord, user.GetName"
+                           FontSize="30"
+                           HorizontalOptions="Center"
+                           TextColor="Black" />
+                </Frame>
+            </VerticalStackLayout>
+            
 
-            <Button Grid.Row="1"
-                    Text="Faire une demande de tutorat"
-                    TextColor="Black"
-                    FontSize="18"  
-                    HeightRequest="60"  
-                    WidthRequest="300" 
-                    BorderColor="Black"  
-                    BorderWidth="2"  
-                    BackgroundColor="#EBE7D8"
-                    HorizontalOptions="End"
-                    VerticalOptions="End"
-                    Margin="0,30,30,30"
-                    Clicked="OnDemandeTutoratClicked"/>
+            <Frame
+                Padding="1"  
+                CornerRadius="5"
+                BackgroundColor="Transparent"
+                HorizontalOptions="FillAndExpand"
+                BorderColor="Transparent"
+                VerticalOptions="Start"
+                Margin="400,120,400,100">
+                <Grid>
+                <BoxView HeightRequest="5" 
+                         BackgroundColor="Black"  
+                         VerticalOptions="Start"
+                         HorizontalOptions="FillAndExpand"/>
+ 
+                <VerticalStackLayout  Padding="50" >
+                    <Button Text="Vos Informations"
+                            Style="{StaticResource ButtonStyle}"
+                            Clicked="OnDemandeInformations"/>
+                    
+                    <Button Text="Vos Tutorats"
+                            Style="{StaticResource ButtonStyle}"
+                            Clicked="OnDemandeMesTutorat"/>
+                    
+                    <Button Text="Votre Agenda"
+                            Style="{StaticResource ButtonStyle}"
+                            Clicked="OnDemandeAgenda"/>
+                </VerticalStackLayout>
+                </Grid>
+            </Frame>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

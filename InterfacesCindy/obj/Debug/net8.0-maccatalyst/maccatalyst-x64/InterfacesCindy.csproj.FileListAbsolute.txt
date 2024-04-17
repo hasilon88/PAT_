@@ -303,3 +303,4 @@ C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-ma
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\InterfacesCindy.pdb
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\InterfacesCindy.genruntimeconfig.cache
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\InterfacesCindy.dll
+C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\infobg.png

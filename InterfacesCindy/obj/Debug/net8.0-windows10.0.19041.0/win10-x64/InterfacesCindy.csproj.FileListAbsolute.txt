@@ -180,3 +180,4 @@ C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-wi
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\cindy\RiderProjects\InterfacesCindy\InterfacesCindy\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\infobg.scale-100.png
