@@ -1,6 +1,9 @@
-# P.A.T. *Plateforme Académique pour le Tutorat*
+# 🎓 P.A.T. *Plateforme Académique pour le Tutorat* 🎓
 
-## Application native C# .NET Maui Entity Framework SQLite
+## Application native C#
+- .NET Maui pour l'aspect visuel professionnel
+- Entity Framework pour gérer efficacement nos models
+- SQLite Base de données pour sa simplicité d'exécution
 ---
 
 **Réalisée dans le cadre du cours Développement d'application pour entreprise**
@@ -11,8 +14,18 @@
 - Harjot Singh Dhillon
 - Jenna-Lee Lecavalier
 - Cindy Bragdon
+---
 
-## <span style="color:blue">Aperçu visuel</span>
+## C'est quoi P.A.T. *Plateforme Académique pour le Tutorat*
+
+## Installation de l'application
+Double clic sur l'exécutable
+
+## Déploiement
+
+## Structure de code
+
+## Aperçu visuel 
 ---
 (Insérez une image ici)
 
