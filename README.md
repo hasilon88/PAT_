@@ -17,6 +17,7 @@
 💾 Jenna-Lee Lecavalier
 
 💾 Cindy Bragdon
+
 ---
 
 ## C'est quoi P.A.T. *Plateforme Académique pour le Tutorat*
