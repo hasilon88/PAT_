@@ -11,8 +11,11 @@
 
 ## Développeurs : 
 💾 Raphael Paquin
+
 💾 Harjot Singh Dhillon
+
 💾 Jenna-Lee Lecavalier
+
 💾 Cindy Bragdon
 ---
 
