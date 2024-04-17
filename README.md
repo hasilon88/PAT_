@@ -4,6 +4,7 @@
 - .NET Maui pour l'aspect visuel professionnel
 - Entity Framework pour gérer efficacement nos models
 - SQLite Base de données pour sa simplicité d'exécution
+- Windows Desktop
 ---
 
 **Réalisée dans le cadre du cours Développement d'application pour entreprise**
