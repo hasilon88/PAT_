@@ -1,5 +1,3 @@
-﻿
-
 namespace PAT.Models.Entities
 {
     /// <summary>

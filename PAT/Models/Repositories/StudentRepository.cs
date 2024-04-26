@@ -1,5 +1,4 @@
-﻿using PAT.Models.Entities;
-using PAT.Providers;
+using PAT.Models.Entities;
 
 namespace PAT.Models.Repositories;
 

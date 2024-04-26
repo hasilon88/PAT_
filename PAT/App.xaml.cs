@@ -1,8 +1,10 @@
-﻿namespace PAT;
+using PAT.Views;
+
+namespace PAT;
 
 public partial class App : Application
 {
-    public App(MainPage mainPage)
+    public App(AvailabilityView mainPage)
     {
         InitializeComponent();
 

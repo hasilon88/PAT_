@@ -1,4 +1,4 @@
-﻿namespace PAT;
+namespace PAT;
 
 public class LocalDbService
 {
@@ -21,6 +21,7 @@ public class LocalDbService
             pathDb = Path.Combine(pathDb, nameDb);
             Console.WriteLine("PathDb = " + pathDb);
         }
+
         return pathDb;
     }
 }

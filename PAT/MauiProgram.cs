@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
 using PAT.Models;
 using PAT.Models.Repositories;
+using PAT.Views;
 
 namespace PAT;
 
@@ -23,9 +23,10 @@ public static class MauiProgram
         
         builder.Services.AddScoped<IMessageRepository, MessageRepository>();
         builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+        builder.Services.AddScoped<IAvailabilityRepository, AvailabilityRepository>();
         builder.Services.AddTransient<MainPage>();
+        builder.Services.AddTransient<AvailabilityView>();
 
-        
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

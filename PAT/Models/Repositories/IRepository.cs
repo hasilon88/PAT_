@@ -1,11 +1,11 @@
-﻿namespace PAT.Models.Repositories;
+namespace PAT.Models.Repositories;
 
 /// <summary>
 /// Provides generic data access features for entities.
 /// </summary>
 /// <typeparam name="T">The entity type.</typeparam>
 public interface IRepository<T>
-    where T : Entities.BaseEntity
+where T : Entities.BaseEntity
 {
     /// <summary>
     /// Gets all entities.

@@ -1,6 +1,5 @@
-﻿using PAT.Models.Entities.Enums;
+using PAT.Models.Entities.Enums;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PAT.Models.Entities
 {
@@ -42,7 +41,6 @@ namespace PAT.Models.Entities
         /// </summary>
         [Required]
         public virtual IEnumerable<Availability> TutorAvailabilities { get; set; } = new List<Availability>();
-
 
         /// <summary>
         /// Get or set the student's tutee availabilities.

@@ -1,6 +1,7 @@
-﻿namespace PAT.Models.Repositories;
+using PAT.Models.Entities;
 
-public interface IAdminRepository
+namespace PAT.Models.Repositories;
+
+public interface IAdminRepository : IRepository<Admin>
 {
-    
 }

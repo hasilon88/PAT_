@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using PAT.Models.Entities;
 using PAT.Models.Repositories;
 
@@ -45,5 +45,4 @@ public partial class MainPage
             Debug.WriteLine($"An error occurred: {ex.Message}");
         }
     }
-
 }
