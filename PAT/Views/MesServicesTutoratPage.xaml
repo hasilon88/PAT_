@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAT.Views.MesServicesTutoratPage">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <Label Text="On est dans la page Mes Services Tutorat Page"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <CollectionView ItemsSource="{Binding Users}" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" Margin="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="3*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Département}" Grid.Column="0" />
+                                <Label Text="{Binding Matière}" Grid.Column="1" />
+                                <Label Text="{Binding NomduTuteur}" Grid.Column="2" />
+                                <Button Text="Prochain RDV" Clicked="NaviguerVersAgenda" CommandParameter="{Binding .}" Grid.Column="4" Margin="2, 0" BackgroundColor="Teal" TextColor="White" WidthRequest="80" HeightRequest="25" Padding="10"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

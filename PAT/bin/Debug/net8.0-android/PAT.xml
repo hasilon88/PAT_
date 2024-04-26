@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PAT</name>
+    </assembly>
+    <members>
+        <member name="T:PAT.Models.Entities.Admin">
+            <summary>
+            Represents an admin.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Availability">
+            <summary>
+            An availability for a student.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Availability.IsDeleted">
+            <summary>
+            Gets or sets whether the availability still exists.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Availability.DayOfWeek">
+            <summary>
+            Gets or sets availability's day of the week.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Availability.StartTime">
+            <summary>
+            Gets or sets availability's start.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Availability.EndTime">
+            <summary>
+            Gets or sets availability's end.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.BaseEntity">
+            <summary>
+            Base entity to provide common properties to other entities and allow it's usage in generic repositories.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Course">
+            <summary>
+            Represents a single course.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Course.CourseCode">
+            <summary>
+            Gets or sets the course's Course code.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Course.CourseCredits">
+            <summary>
+            Gets or sets the course's credit amount.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Course.IsDeleted">
+            <summary>
+            Gets or sets if the Course is deleted.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Course.CourseName">
+            <summary>
+            Gets or sets the course's name.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Enums.ProgramTypeEnum">
+            <summary>
+            Represents the different kinds of programs that exist.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Enums.SessionPeriodEnum">
+            <summary>
+            Represents the different periods of a session.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.IEntity">
+            <summary>
+            Ensure entities have some common properties.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.IEntity.Id">
+            <summary>
+            Gets or sets the entity id.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Message.ReceiverId">
+            <summary>
+            Gets or sets the message's receiver Id.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Message.SenderId">
+            <summary>
+            Gets or sets the message's senderId.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Message.Content">
+            <summary>
+            Gets or sets the message's Content.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.PairTutoringArrangement">
+            <summary>
+            Represents a window when two students will meet.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.PairTutoringArrangement.IsDeleted">
+            <summary>
+            Gets or sets whether the arrangement is deleted.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.PairTutoringArrangement.Availability">
+            <summary>
+            Gets or sets the window for the meetups.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.PairTutoringArrangement.StudentPairMatch">
+            <summary>
+            Gets or sets the student pair.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Program">
+            <summary>
+            Represents a program.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Program.ProgramCode">
+            <summary>
+            Gets or sets the Program's Code.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Program.ProgramType">
+            <summary>
+            Gets or sets the Program's type.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Program.IsDeleted">
+            <summary>
+            Gets or sets if the Program is deleted.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Program.Courses">
+            <summary>
+            Gets or sets the Program's Courses.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Session">
+            <summary>
+            Represents a session.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Session.Year">
+            <summary>
+            Gets or sets the session's year.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Session.SessionPeriod">
+            <summary>
+            Gets or sets the session's period.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.Student">
+            <summary>
+            Represents a Student.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.DANumber">
+            <summary>
+            Gets or sets the student's DA number.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.EmployeeNumber">
+            <summary>
+            Gets or sets Student's employee number. Sometimes, when a student is a tutor and they are paid, they get an employee number. 
+            This field will be nullable and often be just an empty string as the only difference between a tutor and a tutee will be their role and an employee number. 
+            Though this will be a little complicated as a student can have an employee number, be a tutor and a tutee at the same time.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.RScore">
+            <summary>
+            Gets or sets the student's R-Score.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.GlobalAverage">
+            <summary>
+            Gets or sets the students Global Average.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.StudentRoleTypes">
+            <summary>
+            Gets or sets the students roles.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.TutorAvailabilities">
+            <summary>
+            Get or set the student's Tutor availabilities.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.TuteeAvailabilities">
+            <summary>
+            Get or set the student's tutee availabilities.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.StudentCoursePerformance">
+            <summary>
+            Represents the association between a user and a participating course to display their current performance.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentCoursePerformance.IsCourseFinished">
+            <summary>
+            Gets or sets whether the student completed the course with a passing grade.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentCoursePerformance.CurrentGrade">
+            <summary>
+            Gets or sets the Current grade for that student and that course.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentCoursePerformance.Student">
+            <summary>
+            Gets or sets the Student.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentCoursePerformance.Course">
+            <summary>
+            Gets or sets the Course.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.StudentPairMatch">
+            <summary>
+            Represents a pair of matching students for a given session for a given course.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentPairMatch.IsDeleted">
+            <summary>
+            Gets or sets whether the Student pair match exists or not.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentPairMatch.Course">
+            <summary>
+            Gets or sets the course of the pair.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentPairMatch.Session">
+            <summary>
+            Gets or sets the tutor-tutee's session.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentPairMatch.Tutee">
+            <summary>
+            Gets or sets the Tutee.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentPairMatch.Tutor">
+            <summary>
+            Gets or sets the Tutor.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.StudentType">
+            <summary>
+            Represents a Student Type.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.StudentType.StudentTypeName">
+            <summary>
+            Gets or sets the Student Type Name.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Teacher.EmployeeNumber">
+            <summary>
+            Gets or sets the teacher's employee number.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Teacher.Program">
+            <summary>
+            Gets or sets the User's program.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Entities.User">
+            <summary>
+            Represents an abstract user.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.FirstName">
+            <summary>
+            Gets or sets the User's FirstName.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.LastName">
+            <summary>
+            Gets or sets the User's Lastname.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.Email">
+            <summary>
+            Gets or sets the User's email.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.Phone">
+            <summary>
+            Gets or sets the User's phone Number.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.IsDeleted">
+            <summary>
+            Gets or sets whether the account is deleted.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.User.Messages">
+            <summary>
+            Gets or sets the user's messages.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IMessageRepository">
+            <summary>
+            Provides data-access to Messages.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IRepository`1">
+            <summary>
+            Provides generic data access features for entities.
+            </summary>
+            <typeparam name="T">The entity type.</typeparam>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.GetAllAsync">
+            <summary>
+            Gets all entities.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.Get">
+            <summary>
+            Gets entities as an IQueryable to allow further filtering/sorting, etc.
+            </summary>
+            <returns>An IQueryable of the items.</returns>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Gets a single entity by id.
+            </summary>
+            <param name="id">The id of the entity.</param>
+            <param name="token">A token that can be used to cancel the request early.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.CreateAsync(`0)">
+            <summary>
+            Creates an entity and saves it to the database.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.UpdateAsync(`0)">
+            <summary>
+            Updates an entity and saves it to the database.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PAT.Models.Repositories.Interfaces.IRepository`1.DeleteAsync(System.Int32)">
+            <summary>
+            Deletes an entity in the database.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IStudentRepository">
+            <summary>
+            Provides data-access to Students.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.MessageRepository">
+            <summary>
+            Provides data-access to Messages.
+            </summary>
+        </member>
+        <member name="M:PAT.Models.Repositories.MessageRepository.#ctor(PAT.Models.PatDbContext)">
+            <summary>
+            The constructor for the repository.
+            </summary>
+            <param name="context">The data-context to use.</param>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.#ctor(PAT.Models.PatDbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PAT.Models.Repositories.Repository`1"/> class.
+            </summary>
+            <param name="context">The module database context.</param>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.CreateAsync(`0)">
+            <inheritdoc/>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.DeleteAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.Get">
+            <inheritdoc/>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.GetAllAsync">
+            <inheritdoc/>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:PAT.Models.Repositories.Repository`1.UpdateAsync(`0)">
+            <inheritdoc/>
+        </member>
+        <member name="T:PAT.Models.Repositories.StudentRepository">
+            <summary>
+            Provides data-access to Students.
+            </summary>
+        </member>
+        <member name="T:PAT.Providers.DateTimeProvider">
+            <summary>
+            Provides a testable version of DateTime.
+            </summary>
+        </member>
+        <member name="M:PAT.Providers.DateTimeProvider.GetUtcNow">
+            <inheritdoc/>
+        </member>
+        <member name="T:PAT.Providers.IDateTimeProvider">
+            <summary>
+            Provides a testable version of Datetime.
+            </summary>
+        </member>
+        <member name="M:PAT.Providers.IDateTimeProvider.GetUtcNow">
+            <summary>
+            Gets the current UTC date and time.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

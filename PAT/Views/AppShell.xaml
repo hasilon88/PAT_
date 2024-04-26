@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PAT.Views.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PAT.Views"
+    FlyoutBehavior="Disabled"
+    xmlns:pat="using:PAT"
+    xmlns:views="clr-namespace:PAT.Views"
+    Title="Ceci est l'affichage de la page AppShell.xaml">
+    
+    <TabBar>
+        <Tab Title="Choose User">
+            <ShellContent ContentTemplate="{DataTemplate pat:MainPage}" />
+        </Tab>
+        <Tab Title="Mon Compte">
+            <ShellContent ContentTemplate="{DataTemplate local:LandingPage}" />
+        </Tab>
+        
+        <Tab Title="Mes Tutorats">
+            <ShellContent ContentTemplate="{DataTemplate local:MesServicesTutoratPage}" />
+        </Tab>
+
+        <Tab Title="Agenda">
+            <ShellContent ContentTemplate="{DataTemplate local:AgendaPage}" />
+        </Tab>
+        
+        <Tab Title="Tutorat Disponible">
+            <ShellContent ContentTemplate="{DataTemplate local:TutoratDisopPage}" />
+        </Tab>
+        
+        <Tab Title="Fiche d'inscription">
+            <ShellContent ContentTemplate="{DataTemplate local:FicheDemandeTuto}" />
+        </Tab>
+        
+    </TabBar>
+</Shell>
