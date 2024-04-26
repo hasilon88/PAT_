@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\hasil\Pictures\PAT\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-26T17:32:58.690</Modified>
+      <Modified>2024-04-26T18:39:21.431</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-26T17:32:58.250</Modified>
+      <Modified>2024-04-26T18:39:21.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.runtimeconfig.json">
       <PackagePath>PAT.runtimeconfig.json</PackagePath>
-      <Modified>2024-04-24T15:25:36.676</Modified>
+      <Modified>2024-04-26T18:39:20.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.dll">
       <PackagePath>PAT.dll</PackagePath>
-      <Modified>2024-04-26T17:32:56.265</Modified>
+      <Modified>2024-04-26T18:39:19.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PAT.exe</PackagePath>
-      <Modified>2024-04-26T17:32:56.302</Modified>
+      <Modified>2024-04-26T18:39:19.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:30.114</Modified>
+      <Modified>2024-04-26T18:39:15.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:30.152</Modified>
+      <Modified>2024-04-26T18:39:15.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:30.206</Modified>
+      <Modified>2024-04-26T18:39:15.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:30.287</Modified>
+      <Modified>2024-04-26T18:39:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:30.639</Modified>
+      <Modified>2024-04-26T18:39:16.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -81,213 +81,213 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-04-22T21:21:29.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-04-24T15:25:33.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.192</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.238</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.279</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.352</Modified>
+      <Modified>2024-04-26T18:39:18.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.604</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.526</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.539</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.586</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.550</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.562</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.449</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.461</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.514</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.473</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.485</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.296</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.310</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.322</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.360</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.371</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.382</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.438</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.395</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.409</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.771</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.790</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.813</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.848</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.905</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.673</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.686</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.701</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.721</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.753</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.598</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.609</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.622</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.638</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.661</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.926</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.956</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.982</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.025</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:34.160</Modified>
+      <Modified>2024-04-26T18:39:18.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.245</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.263</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.289</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.329</Modified>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:18.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-04-26T18:39:17.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-04-24T15:25:33.482</Modified>
+      <Modified>2024-04-26T18:39:17.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-04-26T18:39:17.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\Pictures\PAT\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.deps.json">
       <PackagePath>PAT.deps.json</PackagePath>
-      <Modified>2024-04-24T15:25:36.525</Modified>
+      <Modified>2024-04-26T18:39:20.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

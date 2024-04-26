@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f568c9a575ab4b27788055fcd38d5dbc89839af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

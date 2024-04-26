@@ -74,6 +74,11 @@
             Represents the different periods of a session.
             </summary>
         </member>
+        <member name="T:PAT.Models.Entities.Enums.StudentRoleTypeEnums">
+            <summary>
+            Represents different student role types.
+            </summary>
+        </member>
         <member name="T:PAT.Models.Entities.IEntity">
             <summary>
             Ensure entities have some common properties.

@@ -114,6 +114,7 @@ C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.GeneratedMSBuildEdi
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.AssemblyInfoInputs.cache
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.AssemblyInfo.cs
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.csproj.CoreCompileInputs.cache
+C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.sourcelink.json
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\XamlC.stamp
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.dll
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-android\PAT.pdb

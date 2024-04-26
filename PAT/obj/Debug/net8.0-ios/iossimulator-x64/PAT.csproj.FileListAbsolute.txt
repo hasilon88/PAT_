@@ -315,6 +315,7 @@ C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.Genera
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.AssemblyInfoInputs.cache
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.AssemblyInfo.cs
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.csproj.CoreCompileInputs.cache
+C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.sourcelink.json
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\XamlC.stamp
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.csproj.CopyComplete
 C:\Users\hasil\Pictures\PAT\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.dll
