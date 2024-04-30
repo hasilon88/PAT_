@@ -1,1 +1,1 @@
-C:\Users\hasil\Pictures\PAT\PAT\PAT.csproj;x64
+C:\Users\cindy\RiderProjects\PAT_\PAT\PAT.csproj;x64

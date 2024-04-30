@@ -40,7 +40,7 @@ namespace PAT
             {
                 if (button.BindingContext is Admin admin)
                 {
-                    await Navigation.PushAsync(new LandingPage(_adminRepository, admin));
+                    await Navigation.PushAsync(new MonCompte(admin));
                 }
             }
         }

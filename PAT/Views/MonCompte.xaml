@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAT.Views.MonCompte">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="WidthRequest" Value="200"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BackgroundColor" Value="#EBE7D8"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Image Source="tutoratbg.jpg"
+                   Aspect="AspectFill"
+                   Grid.Row="0"
+                   Grid.RowSpan="2" />
+
+            <VerticalStackLayout Grid.Row="0"
+                Spacing="25"
+                Padding="30"
+                VerticalOptions="Start">
+                <Frame BackgroundColor="#EBE7D8"  
+                       Padding="10"
+                       CornerRadius="5"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="Start">
+                    <Label x:Name="NameEntry" Text="{Binding Name}"
+                           FontSize="30"
+                           HorizontalOptions="Center"
+                           TextColor="Black" />
+                </Frame>
+            </VerticalStackLayout>
+            
+            <ScrollView Grid.Row="1" BackgroundColor="Transparent">
+                <Frame CornerRadius="10"
+                       Padding="0"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       BackgroundColor="Transparent"
+                       BorderColor="Transparent"
+                       HasShadow="False">
+                    <VerticalStackLayout Padding="50" >
+                        <Button Text="Vos Informations"
+                                Style="{StaticResource ButtonStyle}"
+                                Clicked="OnDemandeInformations"/>
+                        
+                        <Button Text="Vos Tutorats"
+                                Style="{StaticResource ButtonStyle}"
+                                Clicked="OnDemandeMesTutorat"/>
+                        
+                        <Button Text="Votre Agenda"
+                                Style="{StaticResource ButtonStyle}"
+                                Clicked="OnDemandeAgenda"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

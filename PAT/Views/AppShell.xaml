@@ -14,15 +14,7 @@
             <ShellContent ContentTemplate="{DataTemplate pat:MainPage}" />
         </Tab>
         <Tab Title="Mon Compte">
-            <ShellContent ContentTemplate="{DataTemplate local:LandingPage}" />
-        </Tab>
-        
-        <Tab Title="Mes Tutorats">
-            <ShellContent ContentTemplate="{DataTemplate local:MesServicesTutoratPage}" />
-        </Tab>
-
-        <Tab Title="Agenda">
-            <ShellContent ContentTemplate="{DataTemplate local:AgendaPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:MonCompte}" />
         </Tab>
         
         <Tab Title="Tutorat Disponible">
