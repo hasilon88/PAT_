@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-30T14:29:58.121</Modified>
+      <Modified>2024-04-30T21:26:06.580</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-30T14:29:57.945</Modified>
+      <Modified>2024-04-30T21:15:05.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.runtimeconfig.json">
       <PackagePath>PAT.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.dll">
       <PackagePath>PAT.dll</PackagePath>
-      <Modified>2024-04-30T14:29:57.312</Modified>
+      <Modified>2024-04-30T21:26:05.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PAT.exe</PackagePath>
-      <Modified>2024-04-30T14:29:57.328</Modified>
+      <Modified>2024-04-30T21:26:05.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -265,25 +265,29 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-04-26T20:29:43.499</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\demandebackground.scale-100.jpg">
+      <PackagePath>demandebackground.scale-100.jpg</PackagePath>
+      <Modified>2024-04-30T21:14:10.125</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-04-29T21:34:38.332</Modified>
+      <Modified>2024-04-30T21:15:04.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-04-29T21:34:38.343</Modified>
+      <Modified>2024-04-30T21:15:04.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-04-29T21:34:38.359</Modified>
+      <Modified>2024-04-30T21:15:04.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-04-29T21:34:38.378</Modified>
+      <Modified>2024-04-30T21:15:04.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-04-29T21:34:38.451</Modified>
+      <Modified>2024-04-30T21:15:04.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\infobg.scale-100.png">
       <PackagePath>infobg.scale-100.png</PackagePath>

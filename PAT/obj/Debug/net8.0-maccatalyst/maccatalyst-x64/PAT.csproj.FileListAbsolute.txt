@@ -313,3 +313,4 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\PAT.dll
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\infobg.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\tutoratbg.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\demandebackground.jpg

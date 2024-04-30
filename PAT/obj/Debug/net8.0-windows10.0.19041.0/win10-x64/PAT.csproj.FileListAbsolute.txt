@@ -190,3 +190,4 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\infobg.scale-100.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tutoratbg.scale-100.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\demandebackground.scale-100.jpg

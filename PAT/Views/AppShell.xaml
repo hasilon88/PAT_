@@ -7,7 +7,7 @@
     FlyoutBehavior="Disabled"
     xmlns:pat="using:PAT"
     xmlns:views="clr-namespace:PAT.Views"
-    Title="Ceci est l'affichage de la page AppShell.xaml">
+    Title="P.A.T. Plateforme Académique pour le Tutorat">
     
     <TabBar>
         <Tab Title="Choose User">

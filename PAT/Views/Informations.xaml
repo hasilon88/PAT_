@@ -44,9 +44,6 @@
                                 TextColor="Black" />
                         </Frame>
 
-                            
-                        
-
                         <HorizontalStackLayout>
                             <Label Text="Prénom : " FontSize="25" />
                             <Label Text=" user.getFirstName" FontSize="25" Margin="0,0,20,0" />
