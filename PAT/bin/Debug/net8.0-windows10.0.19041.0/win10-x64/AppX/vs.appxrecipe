@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\hasil\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-01T16:03:51.536</Modified>
+      <Modified>2024-05-01T16:30:29.302</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-01T16:03:51.182</Modified>
+      <Modified>2024-05-01T16:22:33.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.runtimeconfig.json">
       <PackagePath>PAT.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.dll">
       <PackagePath>PAT.dll</PackagePath>
-      <Modified>2024-05-01T16:03:49.636</Modified>
+      <Modified>2024-05-01T16:30:26.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PAT.exe</PackagePath>
-      <Modified>2024-05-01T16:03:49.666</Modified>
+      <Modified>2024-05-01T16:30:26.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -299,7 +299,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.deps.json">
       <PackagePath>PAT.deps.json</PackagePath>
-      <Modified>2024-05-01T14:58:29.764</Modified>
+      <Modified>2024-05-01T16:22:32.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hasil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

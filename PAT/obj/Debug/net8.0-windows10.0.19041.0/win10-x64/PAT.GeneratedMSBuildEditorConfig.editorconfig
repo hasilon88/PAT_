@@ -54,23 +54,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.FicheDemandeTuto
 build_metadata.AdditionalFiles.TargetPath = Views\FicheDemandeTuto.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FicheDemandeTuto.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/Informations.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.Informations.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\Informations.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\Informations.xaml
-
 [C:/Users/hasil/RiderProjects/PAT_/PAT/Views/MesServicesTutoratPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.MesServicesTutoratPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MesServicesTutoratPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MesServicesTutoratPage.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/MonCompte.xaml]
+[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/Student/Informations.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.MonCompte.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\MonCompte.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\MonCompte.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.Student.Informations.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Student\Informations.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Student\Informations.xaml
+
+[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/Student/MonCompte.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.Student.MonCompte.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Student\MonCompte.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Student\MonCompte.xaml
 
 [C:/Users/hasil/RiderProjects/PAT_/PAT/Views/TutoratDisopPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

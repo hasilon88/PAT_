@@ -70,13 +70,13 @@
       <MauiXaml Update="App.xaml">
         <Generator>MSBuild:Compile</Generator>
       </MauiXaml>
-      <MauiXaml Update="Views\Informations.xaml">
+      <MauiXaml Update="Views\Student\Informations.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Views\Informations.xaml.cs">
+      <Compile Update="Views\Student\Informations.xaml.cs">
         <DependentUpon>Informations.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
