@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-30T21:26:06.580</Modified>
+      <Modified>2024-04-30T22:53:57.974</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PAT.dll">
       <PackagePath>PAT.dll</PackagePath>
-      <Modified>2024-04-30T21:26:05.466</Modified>
+      <Modified>2024-04-30T22:53:56.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PAT.exe</PackagePath>
-      <Modified>2024-04-30T21:26:05.505</Modified>
+      <Modified>2024-04-30T22:53:56.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cindy\RiderProjects\PAT_\PAT\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
