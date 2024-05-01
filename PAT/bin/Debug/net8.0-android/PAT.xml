@@ -316,9 +316,39 @@
             Gets or sets the user's messages.
             </summary>
         </member>
+        <member name="T:PAT.Models.Repositories.AvailabilityRepository">
+            <summary>
+            Provides data-access to availabilities.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.CourseRepository">
+            <summary>
+            Provides data-access to courses.
+            </summary> 
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IAvailabilityRepository">
+            <summary>
+            Provides data-access to availabilities.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.ICourseRepository">
+            <summary>
+            Provides data-access to Courses.
+            </summary>
+        </member>
         <member name="T:PAT.Models.Repositories.Interfaces.IMessageRepository">
             <summary>
             Provides data-access to Messages.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IPairTutoringArrangementRepository">
+            <summary>
+            Provides data-access.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IProgramRepository">
+            <summary>
+            Provides data-access to Programs.
             </summary>
         </member>
         <member name="T:PAT.Models.Repositories.Interfaces.IRepository`1">
@@ -368,9 +398,29 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.ISessionRepository">
+            <summary>
+            Provides data-access to Sessions.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IStudentCoursePerformanceRepository">
+            <summary>
+            Provides data-access to Student Course performances.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IStudentPairMatchRepository">
+            <summary>
+            Provides data-access to student pair matches. 
+            </summary>
+        </member>
         <member name="T:PAT.Models.Repositories.Interfaces.IStudentRepository">
             <summary>
             Provides data-access to Students.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.Interfaces.IStudentTypeRepository">
+            <summary>
+            Provides data-access to student types.
             </summary>
         </member>
         <member name="T:PAT.Models.Repositories.MessageRepository">
@@ -383,6 +433,16 @@
             The constructor for the repository.
             </summary>
             <param name="context">The data-context to use.</param>
+        </member>
+        <member name="T:PAT.Models.Repositories.PairTutoringArrangementRepository">
+            <summary>
+            Provides data-access to Pair tutoring arrangements.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.ProgramRepository">
+            <summary>
+            Provides data-access to programs.
+            </summary>
         </member>
         <member name="M:PAT.Models.Repositories.Repository`1.#ctor(PAT.Models.PatDbContext)">
             <summary>
@@ -408,9 +468,24 @@
         <member name="M:PAT.Models.Repositories.Repository`1.UpdateAsync(`0)">
             <inheritdoc/>
         </member>
+        <member name="T:PAT.Models.Repositories.SessionRepository">
+            <summary>
+            Provides data-access to Sessions.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.StudentCoursePerformanceRepository">
+            <summary>
+            Provides data access to Student Course Performances.
+            </summary>
+        </member>
         <member name="T:PAT.Models.Repositories.StudentRepository">
             <summary>
             Provides data-access to Students.
+            </summary>
+        </member>
+        <member name="T:PAT.Models.Repositories.StudentTypeRepository">
+            <summary>
+            Provides data-access to Student Types.
             </summary>
         </member>
         <member name="T:PAT.Providers.DateTimeProvider">

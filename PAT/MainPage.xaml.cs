@@ -40,7 +40,17 @@ namespace PAT
             {
                 if (button.BindingContext is Admin admin)
                 {
-                    await Navigation.PushAsync(new MonCompte(admin));
+                    // await Navigation.PushAsync();
+                }
+                
+                if (button.BindingContext is Teacher teacher)
+                {
+                    // await Navigation.PushAsync();
+                }
+                
+                if (button.BindingContext is Student student)
+                {
+                    await Navigation.PushAsync(new MonCompte(student));
                 }
             }
         }
