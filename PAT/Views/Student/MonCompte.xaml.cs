@@ -18,7 +18,7 @@ namespace PAT.Views
         
         private async void OnDemandeInformations(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Informations());
+            await Navigation.PushAsync(new Informations(_student));
         }
     
         private async void OnDemandeAgenda(object sender, EventArgs e)

@@ -46,21 +46,20 @@
 
                         <HorizontalStackLayout>
                             <Label Text="Prénom : " FontSize="25" />
-                            <Label Text=" user.getFirstName" FontSize="25" Margin="0,0,20,0" />
+                            <Label x:Name="firstName" Text=" user.getFirstName" FontSize="25" Margin="0,0,20,0" />
                             <Label Text="Nom : " FontSize="25" />
-                            <Label Text=" user.getLastName" FontSize="25" />
+                            <Label x:Name="lastName" Text=" user.getLastName" FontSize="25" />
                         </HorizontalStackLayout>
 
                         <HorizontalStackLayout>
                             <Label Text="Matricule : " FontSize="25" />
-                            <Label Text=" user.getMatricule" FontSize="25" />
+                            <Label x:Name="matricule" Text=" user.getMatricule" FontSize="25" />
                         </HorizontalStackLayout>
-
+                        
                         <HorizontalStackLayout>
-                            <Label Text="Programme: " FontSize="25" />
-                            <Label Text="user.getFieldOfStudy" FontSize="25" />
+                            <Label Text="Courriel : " FontSize="25" />
+                            <Label x:Name="email" Text=" user.getEmail" FontSize="25" />
                         </HorizontalStackLayout>
-                            
 
                     </VerticalStackLayout>
                     
