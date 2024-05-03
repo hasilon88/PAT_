@@ -7,23 +7,24 @@ namespace PAT.Views
     public partial class MonCompte : ContentPage
     {
         User _user;
+        Student _student;
         
-        public MonCompte(User user)
+        public MonCompte(Student student)
         {
             InitializeComponent();
-            _user = user;
+            _student = student;
 
-            NameEntry.Text = "Bonjour " + _user.FirstName + " " +  _user.LastName;
+            NameEntry.Text = "Bonjour " + _student.FirstName + " " +  _student.LastName;
         }
         
         private async void OnDemandeInformations(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Informations());
+            await Navigation.PushAsync(new Informations(_student));
         }
     
         private async void OnDemandeAgenda(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AgendaPage());
+            await Navigation.PushAsync(new AgendaPage(_student));
         }
         private async void OnDemandeMesTutorat(object sender, EventArgs e)
         {

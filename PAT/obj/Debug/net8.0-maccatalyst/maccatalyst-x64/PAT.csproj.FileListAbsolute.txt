@@ -285,6 +285,9 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\tutoratbg.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\infobg.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\demandebackground.jpg
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
@@ -311,5 +314,5 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PAT.pdb
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PAT.genruntimeconfig.cache
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\PAT.dll
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\infobg.png
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\tutoratbg.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\ref.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\fiche.png

@@ -1,17 +1,40 @@
-﻿namespace PAT.Views
+﻿using System;
+using Microsoft.Maui.Controls;
+using PAT.Models.Entities;
+namespace PAT.Views
 {
-    public partial class FicheDemandeTuto 
+
+    
+    public partial class FicheDemandeTuto : ContentPage
     {
+
         public FicheDemandeTuto()
         {
             InitializeComponent();
+
+
         }
         private void OnEnvoyerClicked(object sender, EventArgs e) { 
  
-            // Ici, ajoutez votre logique pour traiter la demande de rendez-vous
-            // Par exemple, afficher un message de confirmation
-            // TODO: removed this line since error
-            // await DisplayAlert("Demande envoyée", $"Votre demande pour le {Microsoft.Maui.Controls.DatePicker.Date:D} a été envoyée.\nCommentaires: {EditorCommentaires.Text}", "OK");
+            // Retrieving the comment
+            string comment = editorCommentaires.Text;
+
+            // Retrieving the start date and time
+            DateTime startDate = dispoStartDate.Date;
+            TimeSpan startTime = dispoStartTime.Time;
+            DateTime fullStartDateTime = startDate.Add(startTime);
+
+            // Retrieving the end date and time
+            DateTime endDate = dispoEndDate.Date;
+            TimeSpan endTime = dispoEndTime.Time;
+            DateTime fullEndDateTime = endDate.Add(endTime);
+
+            // Now you can use these variables as needed. This example just displays them.
+            DisplayAlert("Input Summary", 
+                $"Comment: {comment}\n" +
+                $"Start: {fullStartDateTime}\n" +
+                $"End: {fullEndDateTime}", 
+                "OK");
         }
     }
 }

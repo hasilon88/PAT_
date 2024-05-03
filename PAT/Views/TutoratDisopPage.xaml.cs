@@ -6,9 +6,6 @@
         {
             InitializeComponent();
         }
-        private async void OnFicheDemandeTutorat(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new FicheDemandeTuto());
-        }
+
     }
 }

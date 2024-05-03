@@ -23,7 +23,6 @@
                                 <Label Text="{Binding Département}" Grid.Column="0" />
                                 <Label Text="{Binding Matière}" Grid.Column="1" />
                                 <Label Text="{Binding NomduTuteur}" Grid.Column="2" />
-                                <Button Text="Prochain RDV" Clicked="NaviguerVersAgenda" CommandParameter="{Binding .}" Grid.Column="4" Margin="2, 0" BackgroundColor="Teal" TextColor="White" WidthRequest="80" HeightRequest="25" Padding="10"/>
                             </Grid>
                         </Frame>
                     </DataTemplate>

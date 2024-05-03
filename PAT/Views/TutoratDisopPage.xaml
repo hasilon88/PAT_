@@ -4,12 +4,13 @@
              x:Class="PAT.Views.TutoratDisopPage">
     
     <ScrollView>
-           
-           <VerticalStackLayout Spacing="20" Padding="20">
+           <Grid>
+                  <Image Source="fiche.png" Aspect="AspectFill" />
+                  <VerticalStackLayout Spacing="20" Padding="20">
                <Label Text="Voici les opportunités de tutorat dans votre dossier, user.getFirstName"
                       FontSize="Medium" 
                       HorizontalTextAlignment="Center"
-                      TextColor="BlueViolet"
+                      TextColor="Black"
                       FontAttributes="Bold"/>
                
                <Label Text="Instructions" 
@@ -52,6 +53,7 @@
                        />
                <!-- Clicked="OnFicheDemandeTutorat" -->
         </VerticalStackLayout>
+                  </Grid>
     </ScrollView>
 
 
