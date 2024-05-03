@@ -10,7 +10,7 @@ namespace PAT.Models.Entities
         /// <summary>
         /// Gets or sets the User's FirstName.
         /// </summary>
-        [Required] 
+        [Required]
         public string FirstName { get; set; } = string.Empty;
 
         /// <summary>

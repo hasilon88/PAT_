@@ -1,15 +1,18 @@
 ﻿using System;
 using Microsoft.Maui.Controls;
-
+using PAT.Models.Entities;
 namespace PAT.Views
 {
 
     
     public partial class FicheDemandeTuto : ContentPage
     {
+
         public FicheDemandeTuto()
         {
             InitializeComponent();
+
+
         }
         private void OnEnvoyerClicked(object sender, EventArgs e) { 
  

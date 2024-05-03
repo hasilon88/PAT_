@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a3ec56c46827031f9071abc846fbe012b47c1aa7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8887c6b0020c9e2b28c20e2c18d2cc7e100164b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

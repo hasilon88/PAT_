@@ -46,26 +46,34 @@
             </VerticalStackLayout>
             
             <ScrollView Grid.Row="1" BackgroundColor="Transparent">
-                <Frame CornerRadius="10"
-                       Padding="0"
-                       HorizontalOptions="FillAndExpand"
-                       VerticalOptions="FillAndExpand"
-                       BackgroundColor="Transparent"
-                       BorderColor="Transparent"
-                       HasShadow="False">
-                    <VerticalStackLayout Padding="50" >
-                        <Button Text="Vos Informations"
-                                Style="{StaticResource ButtonStyle}"
-                                Clicked="OnDemandeInformations"/>
-                        
-                        <Button Text="Vos Tutorats"
-                                Style="{StaticResource ButtonStyle}"
-                                Clicked="OnDemandeMesTutorat"/>
-                        
-                        <Button Text="Votre Agenda"
-                                Style="{StaticResource ButtonStyle}"
-                                Clicked="OnDemandeAgenda"/>
-                    </VerticalStackLayout>
+                <Frame
+                    Padding="1"  
+                    CornerRadius="5"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="FillAndExpand"
+                    BorderColor="Transparent"
+                    VerticalOptions="Start"
+                    Margin="400,20,400,100">
+                    <Grid>
+                        <BoxView HeightRequest="5" 
+                                 BackgroundColor="Black"  
+                                 VerticalOptions="Start"
+                                 HorizontalOptions="FillAndExpand"/>
+ 
+                        <VerticalStackLayout  Padding="50" >
+                            <Button Text="Vos Informations"
+                                    Style="{StaticResource ButtonStyle}"
+                                    Clicked="OnDemandeInformations"/>
+                    
+                            <Button Text="Vos Tutorats"
+                                    Style="{StaticResource ButtonStyle}"
+                                    Clicked="OnDemandeMesTutorat"/>
+                    
+                            <Button Text="Votre Agenda"
+                                    Style="{StaticResource ButtonStyle}"
+                                    Clicked="OnDemandeAgenda"/>
+                        </VerticalStackLayout>
+                    </Grid>
                 </Frame>
             </ScrollView>
         </Grid>

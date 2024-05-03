@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAT.Views.TeacherRef">
+    <ScrollView>
+
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Image Source="ref.png"
+                   Aspect="AspectFill"
+                   Grid.Row="0"
+                   Grid.RowSpan="2" />
+            <Label
+                Text="Référer un étudiant comme tuteur ou tutoré "
+                FontSize="25"
+                HorizontalOptions="Center"
+                TextColor="Black" />
+            <VerticalStackLayout Spacing="25" Padding="0, 20, 0 , 0" Margin="0, 30, 0 , 0">
+                <Label
+                    Text="Écrivez ici le nom de l'étudiant que vous souhaitez référer pour devenir tuteur:  "
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    TextColor="Black" />
+                
+                <StackLayout Padding="20"
+                             Spacing="20"
+                             VerticalOptions="Start">
+                    <Entry x:Name="firstNameEntry"
+                           Placeholder="Prénom "
+                           TextColor="Black"
+                           Text="{Binding FirstName}" 
+                           BackgroundColor="White" Opacity="0.75"
+                           Margin="300, 0 , 300, 0"/>
+                    <Entry x:Name="lastNameEntry"
+                           Placeholder="Nom"
+                           TextColor="Black"
+                           Text="{Binding LastName}" 
+                           BackgroundColor="White" Opacity="0.75"
+                           Margin="300, 0 , 300, 0"/>
+                    <Button x:Name="BtnEnvoyer" 
+                            Text="Envoyer" 
+                            Margin="0,10,0,10"
+                            WidthRequest="180" 
+                            HorizontalOptions="Center" 
+                            BackgroundColor="Teal"
+                            Clicked="OnEnvoyerClicked" />
+                </StackLayout>
+                
+                <Label
+                    Text="Écrivez ici le nom de l'étudiant que vous souhaitez référer pour devenir tutoré :  "
+                    FontSize="20"
+                    HorizontalOptions="Center"
+                    TextColor="Black" />
+                <StackLayout Padding="20"
+                             Spacing="20"
+                             VerticalOptions="Start">
+                    <Entry x:Name="firstNameEntry2"
+                           Placeholder="Prénom "
+                           TextColor="Black"
+                           Text="{Binding FirstName}" 
+                           BackgroundColor="White" Opacity="0.75"
+                           Margin="300, 0 , 300, 0"/>
+                    <Entry x:Name="lastNameEntry2"
+                           Placeholder="Nom"
+                           TextColor="Black"
+                           Text="{Binding LastName}" 
+                           BackgroundColor="White" Opacity="0.75"
+                           Margin="300, 0 , 300, 0"/>
+                    <Button x:Name="BtnEnvoyer1" 
+                            Text="Envoyer" 
+                            Margin="0,10,0,10"
+                            WidthRequest="180" 
+                            HorizontalOptions="Center" 
+                            BackgroundColor="Teal"
+                            Clicked="OnEnvoyerClicked1" />
+                </StackLayout>
+                
+            </VerticalStackLayout>
+            
+  
+        </Grid>
+
+    </ScrollView>
+</ContentPage>

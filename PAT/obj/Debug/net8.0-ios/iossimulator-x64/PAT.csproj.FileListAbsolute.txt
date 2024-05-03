@@ -280,9 +280,6 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resi
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -295,6 +292,12 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resi
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\infobg.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\demandebackground.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\tutoratbg.jpg
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
@@ -323,6 +326,5 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\refi
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.pdb
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\PAT.genruntimeconfig.cache
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\ref\PAT.dll
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\infobg.png
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\tutoratbg.jpg
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\demandebackground.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\ref.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\fiche.png

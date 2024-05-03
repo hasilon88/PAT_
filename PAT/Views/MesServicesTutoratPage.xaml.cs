@@ -7,10 +7,7 @@
             InitializeComponent();
         }
     
-        private async void NaviguerVersAgenda(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AgendaPage());
-        }
+
 
     }
 }

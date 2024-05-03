@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PAT.Resources.Styles.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/cindy/RiderProjects/PAT_/PAT/Views/AdminCRUD.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.AdminCRUD.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdminCRUD.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdminCRUD.xaml
+
 [C:/Users/cindy/RiderProjects/PAT_/PAT/Views/AgendaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.AgendaPage.xaml
@@ -75,6 +81,24 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.MonCompte.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MonCompte.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MonCompte.xaml
+
+[C:/Users/cindy/RiderProjects/PAT_/PAT/Views/TeacherListStudent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.TeacherListStudent.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TeacherListStudent.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TeacherListStudent.xaml
+
+[C:/Users/cindy/RiderProjects/PAT_/PAT/Views/TeacherPairing.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.TeacherPairing.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TeacherPairing.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TeacherPairing.xaml
+
+[C:/Users/cindy/RiderProjects/PAT_/PAT/Views/TeacherRef.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.TeacherRef.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TeacherRef.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TeacherRef.xaml
 
 [C:/Users/cindy/RiderProjects/PAT_/PAT/Views/TutoratDisopPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -30,6 +30,9 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\dra
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\demandebackground.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\infobg.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\tutoratbg.jpg
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -1079,6 +1082,5 @@ C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\stamp\_ConvertRes
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\infobg.png
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\tutoratbg.jpg
-C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\demandebackground.jpg
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\ref.png
+C:\Users\cindy\RiderProjects\PAT_\PAT\obj\Debug\net8.0-android\resizetizer\r\drawable\fiche.png

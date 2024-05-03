@@ -2,8 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAT.Views.AgendaPage">
-    <Label Text="Bienvenue dans votre page agenda, user.getFirstName"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-       
+    <ScrollView>
+        <Grid>
+        <Label x:Name="NameEntry" Text="{Binding Name}"
+               FontSize="30"
+               HorizontalOptions="Center"
+               TextColor="Black" />
+        
+        
+        <Label x:Name="NameEntry2" Text="{Binding Name}"
+               FontSize="30"
+               HorizontalOptions="Center"
+               TextColor="Black" />
+    
+    </Grid>
+    </ScrollView>
 </ContentPage>

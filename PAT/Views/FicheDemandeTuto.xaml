@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAT.Views.FicheDemandeTuto">
-
+    <ScrollView>
     <Grid>
         <!-- Background image -->
         <Image Source="demandebackground.jpg" Aspect="AspectFill" />
@@ -13,15 +13,16 @@
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand" />
             
-            <Label Text="Pourquoi avez-vous besoin de tutorat, user.getFirstName?"
+            <Label Text="Pourquoi avez-vous besoin de tutorat ?"
                    HorizontalOptions="Start"
                    VerticalOptions="CenterAndExpand" />
             
+
             <!-- Champ de texte pour les commentaires -->
             <Editor x:Name="editorCommentaires" 
                     TextColor="Black"
                     PlaceholderColor="Black"
-                    Placeholder="Résumez votre situation, user.getFirstName" 
+                    Placeholder="Résumez votre ici votre situation." 
                     HeightRequest="100"
                     BackgroundColor="White" Opacity="0.75"/>
             
@@ -73,4 +74,5 @@
                     Clicked="OnEnvoyerClicked" />
         </VerticalStackLayout>
     </Grid>
+    </ScrollView>
 </ContentPage>

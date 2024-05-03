@@ -13,16 +13,15 @@
         <Tab Title="Choose User">
             <ShellContent ContentTemplate="{DataTemplate pat:MainPage}" />
         </Tab>
-        <Tab Title="Mon Compte">
-            <ShellContent ContentTemplate="{DataTemplate local:MonCompte}" />
-        </Tab>
-        
         <Tab Title="Tutorat Disponible">
             <ShellContent ContentTemplate="{DataTemplate local:TutoratDisopPage}" />
         </Tab>
         
         <Tab Title="Fiche d'inscription">
             <ShellContent ContentTemplate="{DataTemplate local:FicheDemandeTuto}" />
+        </Tab>
+        <Tab Title="PROF : REF" >
+            <ShellContent ContentTemplate="{DataTemplate local:TeacherRef}" />
         </Tab>
         
     </TabBar>
