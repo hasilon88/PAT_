@@ -1,6 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
-using PAT.Models;
-using PAT.Models.Entities;
+﻿using MauiSqlite;
+using Microsoft.Extensions.Logging;
 using PAT.Models.Repositories;
 using PAT.Models.Repositories.Interfaces;
 using PAT.ViewModels;
@@ -12,6 +11,7 @@ namespace PAT
     {
         public static MauiApp CreateMauiApp()
         {
+            SQLitePCL.Batteries.Init();
             var builder = MauiApp.CreateBuilder();
 
             builder
@@ -22,21 +22,20 @@ namespace PAT
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            SQLitePCL.Batteries.Init();
-            builder.Services.AddDbContext<PatDbContext>();
-
-            builder.Services.AddSingleton<IAdminRepository, AdminRepository>();
-            builder.Services.AddSingleton<IAvailabilityRepository, AvailabilityRepository>();
-            builder.Services.AddSingleton<ICourseRepository, CourseRepository>();
-            builder.Services.AddSingleton<IMessageRepository, MessageRepository>();
-            builder.Services.AddSingleton<IPairTutoringArrangementRepository, PairTutoringArrangementRepository>();
-            builder.Services.AddSingleton<IProgramRepository, ProgramRepository>();
-            builder.Services.AddSingleton<ISessionRepository, SessionRepository>();
-            builder.Services.AddSingleton<IStudentCoursePerformanceRepository, StudentCoursePerformanceRepository>();
-            builder.Services.AddSingleton<IStudentRepository, StudentRepository>();
-            builder.Services.AddSingleton<IStudentTypeRepository, StudentTypeRepository>();
-            builder.Services.AddSingleton<IStudentPairMatchRepository, StudentPairMatchRepository>();
-            builder.Services.AddSingleton<ITeacherRepository, TeacherRepository>();
+            builder.Services.AddTransient<IAdminRepository, AdminRepository>();
+            builder.Services.AddTransient<IAvailabilityRepository, AvailabilityRepository>();
+            builder.Services.AddTransient<ICourseRepository, CourseRepository>();
+            builder.Services.AddTransient<IMessageRepository, MessageRepository>();
+            builder.Services.AddTransient<IPairTutoringArrangementRepository, PairTutoringArrangementRepository>();
+            builder.Services.AddTransient<IProgramRepository, ProgramRepository>();
+            builder.Services.AddTransient<ISessionRepository, SessionRepository>();
+            builder.Services.AddTransient<IStudentCoursePerformanceRepository, StudentCoursePerformanceRepository>();
+            builder.Services.AddTransient<IStudentRepository, StudentRepository>();
+            builder.Services.AddTransient<IStudentTypeRepository, StudentTypeRepository>();
+            builder.Services.AddTransient<IStudentPairMatchRepository, StudentPairMatchRepository>();
+            builder.Services.AddTransient<ITeacherRepository, TeacherRepository>();
+            builder.Services.AddScoped<AppDbContext, AppDbContext>();
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             builder.Services.AddTransient<MainPageViewModel>();
             builder.Services.AddTransient<AppShell>();

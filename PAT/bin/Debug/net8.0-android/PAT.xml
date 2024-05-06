@@ -134,6 +134,11 @@
             Gets or sets the Program's Code.
             </summary>
         </member>
+        <member name="P:PAT.Models.Entities.Program.ProgramName">
+            <summary>
+            Gets or sets the Program's Name.
+            </summary>
+        </member>
         <member name="P:PAT.Models.Entities.Program.ProgramType">
             <summary>
             Gets or sets the Program's type.
@@ -204,6 +209,11 @@
         <member name="P:PAT.Models.Entities.Student.TuteeAvailabilities">
             <summary>
             Get or set the student's tutee availabilities.
+            </summary>
+        </member>
+        <member name="P:PAT.Models.Entities.Student.Program">
+            <summary>
+            Gets or set the student's program.
             </summary>
         </member>
         <member name="T:PAT.Models.Entities.StudentCoursePerformance">
@@ -428,7 +438,7 @@
             Provides data-access to Messages.
             </summary>
         </member>
-        <member name="M:PAT.Models.Repositories.MessageRepository.#ctor(PAT.Models.PatDbContext)">
+        <member name="M:PAT.Models.Repositories.MessageRepository.#ctor(MauiSqlite.AppDbContext)">
             <summary>
             The constructor for the repository.
             </summary>
@@ -444,7 +454,7 @@
             Provides data-access to programs.
             </summary>
         </member>
-        <member name="M:PAT.Models.Repositories.Repository`1.#ctor(PAT.Models.PatDbContext)">
+        <member name="M:PAT.Models.Repositories.Repository`1.#ctor(MauiSqlite.AppDbContext)">
             <summary>
             Initializes a new instance of the <see cref="T:PAT.Models.Repositories.Repository`1"/> class.
             </summary>

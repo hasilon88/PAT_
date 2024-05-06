@@ -1,4 +1,5 @@
-﻿using PAT.Models.Entities;
+﻿using MauiSqlite;
+using PAT.Models.Entities;
 using PAT.Models.Repositories.Interfaces;
 
 namespace PAT.Models.Repositories;
@@ -8,8 +9,11 @@ namespace PAT.Models.Repositories;
 /// </summary>
 public class AvailabilityRepository : Repository<Availability>, IAvailabilityRepository
 {
-    protected AvailabilityRepository(PatDbContext context) 
+    private AppDbContext _context;
+    
+    protected AvailabilityRepository(AppDbContext context) 
         : base(context)
     {
+        _context = context;
     }
 }

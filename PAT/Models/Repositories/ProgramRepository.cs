@@ -1,4 +1,5 @@
-﻿using PAT.Models.Repositories.Interfaces;
+﻿using MauiSqlite;
+using PAT.Models.Repositories.Interfaces;
 
 namespace PAT.Models.Repositories;
 
@@ -7,8 +8,10 @@ namespace PAT.Models.Repositories;
 /// </summary>
 public class ProgramRepository : Repository<Entities.Program>, IProgramRepository
 {
-    protected ProgramRepository(PatDbContext context) 
+    private AppDbContext _dbContext;
+    protected ProgramRepository(AppDbContext context) 
         : base(context)
     {
+        _dbContext = context;
     }
 }

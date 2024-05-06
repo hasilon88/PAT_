@@ -1,4 +1,5 @@
-﻿using PAT.Models.Entities;
+﻿using MauiSqlite;
+using PAT.Models.Entities;
 using PAT.Models.Repositories.Interfaces;
 
 namespace PAT.Models.Repositories;
@@ -8,8 +9,10 @@ namespace PAT.Models.Repositories;
 /// </summary>
 public class StudentTypeRepository : Repository<StudentType>, IStudentTypeRepository
 {
-    protected StudentTypeRepository(PatDbContext context) 
-        : base(context) 
+    private AppDbContext _context;
+    protected StudentTypeRepository(AppDbContext context) 
+        : base(context)
     {
+        _context = context;
     }
 }

@@ -1,12 +1,16 @@
-﻿using PAT.Models.Entities;
+﻿using MauiSqlite;
+using PAT.Models.Entities;
 using PAT.Models.Repositories.Interfaces;
 
 namespace PAT.Models.Repositories;
 
 public class StudentPairMatchRepository : Repository<StudentPairMatch>, IStudentPairMatchRepository
 {
-    protected StudentPairMatchRepository(PatDbContext context) 
+    private AppDbContext _context;
+    
+    protected StudentPairMatchRepository(AppDbContext context) 
         : base(context)
     {
+        _context = context;
     }
 }

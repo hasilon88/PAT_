@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MauiSqlite;
+using Microsoft.EntityFrameworkCore;
 using PAT.Models.Entities;
 using PAT.Models.Repositories.Interfaces;
 
@@ -8,14 +9,14 @@ namespace PAT.Models.Repositories
         where T : BaseEntity
     {
 
-        private readonly PatDbContext _context;
+        private readonly AppDbContext _context;
         private readonly DbSet<T> _entities;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{TEntity}"/> class.
         /// </summary>
         /// <param name="context">The module database context.</param>
-        protected Repository(PatDbContext context)
+        protected Repository(AppDbContext context)
         {
             context.Database.EnsureCreated();
             this._context = context;
@@ -23,12 +24,13 @@ namespace PAT.Models.Repositories
         }
 
         /// <inheritdoc/>
-        public async Task CreateAsync(T entity)
+        public async Task<T> CreateAsync(T entity)
         {
             ArgumentNullException.ThrowIfNull(entity);
 
             this._entities.Add(entity);
             await this._context.SaveChangesAsync();
+            return entity;
         }
 
         /// <inheritdoc/>
