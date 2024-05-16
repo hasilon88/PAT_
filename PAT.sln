@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PAT", "PAT\PAT.csproj", "{59285333-5457-4EA1-A4F3-A29951FCE72F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiSqlite", "MauiSqlite\MauiSqlite.csproj", "{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,12 @@ Global
 		{59285333-5457-4EA1-A4F3-A29951FCE72F}.Deploy|Any CPU.Deploy.0 = Deploy|Any CPU
 		{59285333-5457-4EA1-A4F3-A29951FCE72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59285333-5457-4EA1-A4F3-A29951FCE72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Deploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Deploy|Any CPU.Build.0 = Debug|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73368FB-37DD-454A-A8B6-BFBF6D1EF039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

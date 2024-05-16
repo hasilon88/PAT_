@@ -1,6 +1,6 @@
-﻿using PAT.Models.Entities;
+﻿using MauiSqlite;
+using PAT.Models.Entities;
 using PAT.Models.Repositories.Interfaces;
-using PAT.Providers;
 
 namespace PAT.Models.Repositories
 {
@@ -10,17 +10,16 @@ namespace PAT.Models.Repositories
     public class MessageRepository : Repository<Message>, IMessageRepository
     {
 
-        private readonly PatDbContext _dataContext;
+        private readonly AppDbContext _dataContext;
 
         /// <summary>
         /// The constructor for the repository.
         /// </summary>
         /// <param name="context">The data-context to use.</param>
-        public MessageRepository(
-            PatDbContext context) 
+        public MessageRepository(AppDbContext context) 
             : base(context)
-    {
-        this._dataContext = context;
-    }
+        {
+            this._dataContext = context;
+        }
     }
 }

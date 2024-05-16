@@ -17,7 +17,6 @@ namespace PAT
             ITeacherRepository teacherRepository
         )
         {
-            InitializeComponent();
             _adminRepository = adminRepository;
             _viewModel = new MainPageViewModel(
                 adminRepository,
@@ -26,6 +25,7 @@ namespace PAT
             );
             BindingContext = _viewModel;
             LoadUsers();
+            InitializeComponent();
         }
 
         private async Task LoadUsers()

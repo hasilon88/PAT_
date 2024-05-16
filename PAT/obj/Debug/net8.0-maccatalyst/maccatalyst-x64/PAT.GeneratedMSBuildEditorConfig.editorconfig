@@ -12,77 +12,77 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PAT
-build_property.ProjectDir = C:\Users\hasil\RiderProjects\PAT_\PAT\
+build_property.ProjectDir = C:\Users\Raph\RiderProjects\PAT_\PAT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/App.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/MainPage.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Resources/Styles/Colors.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Resources/Styles/Styles.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/AgendaPage.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/AgendaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.AgendaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AgendaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AgendaPage.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/AppShell.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AppShell.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/FicheDemandeTuto.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/FicheDemandeTuto.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.FicheDemandeTuto.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FicheDemandeTuto.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FicheDemandeTuto.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/MesServicesTutoratPage.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/MesServicesTutoratPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.MesServicesTutoratPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MesServicesTutoratPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MesServicesTutoratPage.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/Student/Informations.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/Student/Informations.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.Student.Informations.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Student\Informations.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Student\Informations.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/Student/MonCompte.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/Student/MonCompte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.Student.MonCompte.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Student\MonCompte.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Student\MonCompte.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/TutoratDisopPage.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/TutoratDisopPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.TutoratDisopPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TutoratDisopPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TutoratDisopPage.xaml
 
-[C:/Users/hasil/RiderProjects/PAT_/PAT/Views/UsersChoice.xaml]
+[C:/Users/Raph/RiderProjects/PAT_/PAT/Views/UsersChoice.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAT.Views.UsersChoice.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\UsersChoice.xaml
